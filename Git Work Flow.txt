@@ -5,13 +5,26 @@
    - git config --global user.email "muhtar.mis@gmail.com" kasih tahu email kita
    - 2 hal diatas jika sudah dijalankan, artinya sudah siap terkoneksi ke Github kita
 
+4. 
 git init - artinya menginisialisasi dari folder biasa menjadi repository
 
 git add README.md - mau menambahkan file dari repo kita , agar bisa dilacak perubahan oleh git
 atau bisa dengan cara git add. (semua file akan dilacak perubahannya ) - enter
 
-git commit -m "first commit"
+git commit -m "first commit" - kita kasih tahu ke git perubahan apa yang sudah dilakukan 
 
-git branch -M main
-git remote add origin https://github.com/hidayatTM/hidayattm.github.io.git
-git push -u origin main
+git branch -M main - memindahakan branch "master" jadi "main"
+
+git remote add origin https://github.com/hidayatTM/hidayattm.github.io.git - hubungkan komputer dengan github
+
+ - 
+git push -u origin main - cara kita melakukan upload dari komputer ke github.
+umumnya diminta mengisikan username dan password.
+
+
+5. Ubah Repository menjadi halaman web yang dapat diakses. 
+   - cari di settings - ke "GitHub Pages" - pilihan branch dan - save
+   - alamat website akan diberikan oleh github, dan siap diakses
+
+6. cara mengupdate perubahan coding ke website github.
+   - Git add - git commit - gitu push 
