@@ -1,0 +1,20 @@
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+img .gambar-thumb {
+    width: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 5rem;
+}

@@ -1,0 +1,7 @@
+1. Buka Web Bootstrap Ver.5.
+2. Buat Mookup
+3. Buka App VS Code
+4. Install Extention ( Prettier)
+5. Open in Browser
+6. Squoosh untuk compress image
+7. Cara Buat Gelombang getwaves.io
