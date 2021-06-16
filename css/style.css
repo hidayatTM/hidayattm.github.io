@@ -18,3 +18,15 @@ a {
 section {
     padding-top: 5rem;
 }
+
+.gallery-img {
+    width: 100%;
+}
+
+
+/* hilangkan semua padding yang ada di gallery */
+
+#gallery .row>* {
+    padding: 0;
+    margin-bottom: 0;
+}

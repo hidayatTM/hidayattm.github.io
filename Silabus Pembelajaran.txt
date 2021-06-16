@@ -5,3 +5,5 @@
 5. Open in Browser
 6. Squoosh untuk compress image
 7. Cara Buat Gelombang getwaves.io
+8. untuk menambahkan animasi AOS - https://michalsnik.github.io/aos/
+9. Untuk animasi bisa pake GSAP
