@@ -397,9 +397,9 @@
                         <div class="mb-3">
                             <select class="form-control">
                                 <option>-- Choose Category</option>
-                                <option id="wdes">Web Desain</option>
-                                <option id="wdev">Web Development</option>
-                                <option id="erp">ERP</option>
+                                <option id="wdes" value="web desin">Web Desain</option>
+                                <option id="wdev" value="web development">Web Development</option>
+                                <option id="erp" value="ERP">ERP</option>
                             </select>
                         </div>
 
@@ -518,8 +518,6 @@
         const btnKirim = document.querySelector('.btn-kirim');
         const btnLoading = document.querySelector('.btn-loading');
         const myAlert = document.querySelector('.my-alert');
-
-
 
         form.addEventListener('submit', e => {
             e.preventDefault()
