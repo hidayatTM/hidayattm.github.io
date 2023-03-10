@@ -30,3 +30,108 @@ section {
     padding: 0;
     margin-bottom: 0;
 }
+
+
+/* my 3dbox section */
+
+.my-3d-box {
+    /* supaya posisi absolute */
+    position: relative;
+    background-color: #0D6EFD;
+    /* membuat sudut tumpul */
+    border-radius: 10px;
+    height: 500px;
+    /* overflow: hidden; */
+    /* buat kasih tahu akan ada 3d */
+    transform-style: preserve-3d;
+}
+
+.my-3d-box::before {
+    content: 'ENTERPRISE';
+    position: absolute;
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+    font-style: italic;
+    top: 30px;
+    /* left: -100px; */
+    left: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+/* supaya memunculkan tulisan "MY" ketika di hover */
+
+.my-3d-box:hover::before {
+    /* left: 50%;
+    transform: translate(-50%, 0); */
+    opacity: 0.2;
+}
+
+.my-3d-box::after {
+    content: 'SOFTWARE';
+    position: absolute;
+    color: #fff;
+    font-size: 4.3em;
+    font-weight: bold;
+    font-style: italic;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.my-3d-box:hover::after {
+    opacity: 0.2;
+}
+
+.my-3d-name {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translate3d(0, 0, 50px);
+}
+
+.my-3d-box:hover .my-3d-name {
+    top: 20px;
+    opacity: 1;
+}
+
+.my-3d-detail-button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate3d(-50%, 0, 50px);
+    opacity: 0;
+    transform: 0.5s;
+}
+
+.my-3d-box:hover .my-3d-detail-button {
+    opacity: 1;
+    bottom: 20px;
+}
+
+
+/* image */
+
+.accsoft-img {
+    position: absolute;
+    max-width: 265px;
+    top: 51%;
+    left: 50%;
+    transform: translate3d(-50%, -51%, 100px);
+    transition: 0.5s;
+}
+
+.my-3d-box:hover .accsoft-img {
+    transform: translate3d(-50%, -51%, 100px) scale(1.2);
+}
